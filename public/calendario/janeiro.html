@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='calendario.css'>
-    <link rel="stylesheet" href="reset.css">
+    <link rel='stylesheet'  href="../css/calendario.css">
+    <link rel="stylesheet"  href="../css/reset.css">
     <title>Calendário</title>
 </head>
 <body>
     <header class='Calendario'>
         <div>
-            <a type="button" href="junho.html" onclick="paraTras()"class='botao' id="botao2" name='botao2' >&lt</a>
-            <span class='titulo' id="titulo1">Julho 2020</span>
-            <a type="button" href="agosto.html" onclick="paraFrente()" class='botao' id="botao3" name='botao3'>&gt</a>
+            <span class='titulo' id="titulo1">Janeiro 2020</span>
+            <a type="button" href="../calendario/fevereiro.html" class='botao' id="botao3" name='botao3'>&gt</a>
         </div>
-        
         <table>
             <tr>
                 <td><input type='button' class='semana' value='Dom'/></td>
@@ -24,6 +22,7 @@
                 <td><input type='button' class='semana' value='Qui'/></td>
                 <td><input type='button' class='semana' value='Sex'/></td>
                 <td><input type='button' class='semana' value='Sab'/></td>
+               
             </tr>
         </table>
         <table>
@@ -55,7 +54,7 @@
                 <td><input type='button' class='dia' value='18'/></td>
             </tr>
             <tr>
-                <td><input type='button' class='dia' value='19'/></td>
+                <td><input type='button' class='dia' value='12'/></td>
                 <td><input type='button' class='dia' value='20'/></td>
                 <td><input type='button' class='dia' value='21'/></td>
                 <td><input type='button' class='dia' value='22'/></td>
@@ -78,6 +77,7 @@
             <input type="button" class='enviar' value='enviar'/>
         </div>
     </header>
-    <script src='marcar_mes_semana_dia.js'></script>
+    <script src='../js/modificacoes.js'></script>
+    
 </body>
 </html>

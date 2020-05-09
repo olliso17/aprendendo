@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='calendario.css'>
-    <link rel="stylesheet" href="reset.css">
+    <link rel='stylesheet'  href="../css/calendario.css">
+    <link rel="stylesheet"  href="../css/reset.css">
     <title>Calendário</title>
 </head>
 <body>
     <header class='Calendario'>
         <div>
-            <a type="button" href="fevereiro.html" onclick="paraTras()"class='botao' id="botao2" name='botao2' >&lt</a>
-            <span class='titulo' id="titulo1">Março 2020</span>
-            <a type="button" href="abril.html" onclick="paraFrente()" class='botao' id="botao3" name='botao3'>&gt</a>
+            <a type="button" href="../calendario/julho.html" class='botao' id="botao2" name='botao2' >&lt</a>
+            <span class='titulo' id="titulo1">Agosto 2020</span>
+            <a type="button" href="../calendario/setembro.html" class='botao' id="botao3" name='botao3'>&gt</a>
         </div>
         
         <table>
@@ -28,57 +28,65 @@
         </table>
         <table>
             <tr>
+                <td><input type='button' class='dia1' value=' '/></td>
+                <td><input type='button' class='dia1' value=' '/></td>
+                <td><input type='button' class='dia1' value=' '/></td>
+                <td><input type='button' class='dia1' value=' '/></td>
+                <td><input type='button' class='dia1' value=' '/></td>
+                <td><input type='button' class='dia1' value=' '/></td>
                 <td><input type='button' class='dia' value='1'/></td>
+            </tr>
+            <tr>
                 <td><input type='button' class='dia' value='2'/></td>
                 <td><input type='button' class='dia' value='3'/></td>
                 <td><input type='button' class='dia' value='4'/></td>
                 <td><input type='button' class='dia' value='5'/></td>
                 <td><input type='button' class='dia' value='6'/></td>
                 <td><input type='button' class='dia' value='7'/></td>
+                <td><input type='button' class='dia' value='8'/></td>
             </tr>
             <tr>
-                <td><input type='button' class='dia' value='8'/></td>
                 <td><input type='button' class='dia' value='9'/></td>
                 <td><input type='button' class='dia' value='10'/></td>
                 <td><input type='button' class='dia' value='11'/></td>
                 <td><input type='button' class='dia' value='12'/></td>
                 <td><input type='button' class='dia' value='13'/></td>
                 <td><input type='button' class='dia' value='14'/></td>
+                <td><input type='button' class='dia' value='15'/></td>
             </tr>
             <tr>
-                <td><input type='button' class='dia' value='15'/></td>
                 <td><input type='button' class='dia' value='16'/></td>
                 <td><input type='button' class='dia' value='17'/></td>
                 <td><input type='button' class='dia' value='18'/></td>
                 <td><input type='button' class='dia' value='19'/></td>
                 <td><input type='button' class='dia' value='20'/></td>
                 <td><input type='button' class='dia' value='21'/></td>
+                <td><input type='button' class='dia' value='22'/></td>
             </tr>
             <tr>
-                <td><input type='button' class='dia' value='22'/></td>
                 <td><input type='button' class='dia' value='23'/></td>
                 <td><input type='button' class='dia' value='24'/></td>
                 <td><input type='button' class='dia' value='25'/></td>
                 <td><input type='button' class='dia' value='26'/></td>
                 <td><input type='button' class='dia' value='27'/></td>
                 <td><input type='button' class='dia' value='28'/></td>
-            </tr>
-            <tr>
-                
                 <td><input type='button' class='dia' value='29'/></td>
-                <td><input type='button' class='dia' value='30'/></td>
-                <td><input type='button' class='dia' value='31'/></td>
-                <td><input type='button' class='dia1' value=' '/></td>
-                <td><input type='button' class='dia1' value=' '/></td>
-                <td><input type='button' class='dia1' value=' '/></td>
-                <td><input type='button' class='dia1' value=' '/></td>
             </tr>
+          <tr>
+            <td><input type='button' class='dia' value='30'/></td>
+            <td><input type='button' class='dia' value='31'/></td>
+            <td><input type='button' class='dia1' value=' '/></td>
+            <td><input type='button' class='dia1' value=' '/></td>
+            <td><input type='button' class='dia1' value=' '/></td>
+            <td><input type='button' class='dia1' value=' '/></td>
+            <td><input type='button' class='dia1' value=' '/></td>
+          </tr>
         </table>
         <div>
             <textarea class='textoEmArea' placeholder="lembretes" cols="30" rows="5"></textarea>
             <input type="button" class='enviar' value='enviar'/>
         </div>
     </header>
-    <script src='marcar_mes_semana_dia.js'></script>
+    <script src='../js/modificacoes.js'></script>
 </body>
 </html>

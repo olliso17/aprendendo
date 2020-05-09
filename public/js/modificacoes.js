@@ -1,3 +1,4 @@
+//automatizar marcador de data e semana no calendário
 //pegar da data atual
 const data = new Date();
 //definir o mes

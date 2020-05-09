@@ -1,8 +1,73 @@
+body{
+    width: 360px;
+    height:640px;
+    background-color: #6e6868;
+    
+}
+.caixa{
+    position: relative;
+    width: 90%;
+    margin: 5%;
+    height:94%;
+    background-color: #000000;
+}
+.texto1{
+    position: absolute;;
+    margin:12%;
+    border-style: solid;
+    border-color: #696969;
+    background-color: #575454;
+    text-align: center;
+    padding: 4%;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.bloco-login{
+    position:relative;
+    left: 3%;
+    top:20%;
+    padding: 2%;
+    margin:1%;
+    width:100%;
+    height:250px;
+}
+.login1{
+    position:absolute;
+    left:20%;
+    top:60%;
+    width:50%;
+    font-size: 15px;
+}
+.login2{
+    position:absolute;
+    left:20%;
+    top:70%;
+    width:50%;
+    font-size: 15px;
+    
+} 
+.login3{
+    position:absolute;
+    left:20%;
+    top:80%;
+    width:50%;
+    font-size: 15px;
+}
+.botao-entrar{
+    position:absolute;
+    left:35%;
+    top:90%;
+    width:20%;
+    border-style:solid;
+    position:absolute;
+    background-color:#4F4F4F;
+    font-size: 15px;
+}  
 .Calendario{
     background-color: #000000;
-    width: 360px;
+    width: 375px;
     height: 640px;
-    padding:5px;
+    padding:13px;
     box-sizing: border-box;
 }
 .botao{
@@ -19,6 +84,7 @@
     background: #363636;
     border-color:#4F4F4F;
     transition: 0.3s linear 0s;
+    text-decoration:none; 
 }
 .botao:hover{
     background: #969090;
@@ -114,3 +180,4 @@
     background: #969090;
     border-color:#636262;
 }
+
