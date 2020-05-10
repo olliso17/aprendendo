@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 })
 /*pega o arquivo html e chama no localhost*/
 app.get('/calendario', function (req, res) {
-    res.sendFile(__dirname +'public/calendario/janeiro.html'); 
+    res.sendFile(__dirname +'/public/calendario/janeiro.html'); 
 })
 app.listen('3000', (req,res)=>{
     console.log('servidor rodando')
